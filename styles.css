@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+}
+
+#main {
+    margin: 30px 1px;
+    padding-top: 45px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.first-part h1 {
+    font-size: 40px;
+    margin-top: 5px;
+    color: #302d2d;
+}
+
+.first-part p {
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.photo {
+    padding-bottom: 1px;
+    border-radius: 2px;
+    background-color: white;
+    margin: auto 15px;
+}
+
+.photo p {
+    padding-top: 1px;
+    font-size: 16px;
+    color: rgb(70, 69, 69);
+}
+
+.time-line {
+    margin-top: 55px;
+    font-size: 19px;
+    color: #302d2d;
+}
+
+.list {
+    display: flex;
+    text-align: start;
+    color: rgb(70, 69, 69);
+    margin: auto;
+    width: 40%;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.list ul li {
+    margin: 20px;
+    line-height: 25px;
+
+}
+
+.down-part {
+    color: rgb(70, 69, 69);
+    margin: auto;
+    width: 40%;
+    padding-left: 45px;
+}
+
+.down-part p {
+    margin-bottom: 30px;
+}
+
+.last-part {
+    padding-top: 30px;
+    font-size: larger;
+    font-weight: bold;
+    color: #302d2d;
+}
+
+.last-part a {
+    color: #6d5a80;
+}
+
+@media (max-width: 480px) {
+    .first-part h1 {
+        font-size: 30px;
+        margin-top: 5px;
+        color: #302d2d;
+    }
+
+    .photo {
+        padding-bottom: 1px;
+        margin: auto 1gitpx;
+    }
+
+    .photo img {
+        width: 100%;
+    }
+
+    .time-line {
+        margin-top: 55px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: start;
+        padding-left: 10px;
+    }
+
+    .list {
+        justify-content: center;
+        text-align: start;
+        width: 100%;
+    }
+
+    .list ul li {
+        justify-content: center;
+        text-align: start;
+        margin: 5px;
+        padding: 5px;
+        line-height: 25px;
+    }
+
+    .down-part {
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+        padding-left: 0;
+        margin: auto;
+    }
+
+    .last-part {
+        padding-top: 0;
+    }
+
+    .last-part a {
+        color: #1915e4;
+    }
+}
